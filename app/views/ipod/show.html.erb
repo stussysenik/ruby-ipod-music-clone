@@ -1,0 +1,25 @@
+<div id="ipod-app"
+     data-controller="ipod"
+     class="flex items-center justify-center min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 select-none overflow-hidden">
+  <div class="ipod-container relative" data-ipod-target="container">
+    <!-- Layer 1: SVG iPod body (z-index 1) -->
+    <div id="ipod-svg-layer" class="relative" style="z-index: 1;" data-ipod-target="svgLayer"></div>
+
+    <!-- Layer 2: WebGPU canvas (z-index 2) — behind screen content -->
+    <canvas id="ipod-gpu-canvas"
+            data-ipod-target="gpuCanvas"
+            class="absolute pointer-events-none"
+            style="z-index: 2;">
+    </canvas>
+
+    <!-- Layer 3: Screen HTML content (z-index 3) — above canvas -->
+    <div id="ipod-screen-content"
+         data-ipod-target="screenContent"
+         class="absolute pointer-events-none"
+         style="z-index: 3; overflow: hidden; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px; color: #ffffff;">
+    </div>
+
+    <!-- Layer 4: SVG glass overlay (z-index 4) -->
+    <div id="ipod-glass-layer" class="absolute pointer-events-none" style="z-index: 4;" data-ipod-target="glassLayer"></div>
+  </div>
+</div>
