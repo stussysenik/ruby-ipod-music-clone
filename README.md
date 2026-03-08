@@ -1,3 +1,5 @@
+Note: Ruby on Rails porr of the original v0-ipod codebase not finished
+
 # README
 
 This README would normally document whatever steps are necessary to get the
