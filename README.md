@@ -1,26 +1,25 @@
-Note: Ruby on Rails porr of the original v0-ipod codebase not finished
+# ruby-ipod-music-clone
 
-# README
+Ruby Ipod Music Clone
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white)
 
-Things you may want to cover:
+## About
 
-* Ruby version
+🔬 **Implementation Study** built with Node.js / React.
 
-* System dependencies
+<!-- 
+  Add a demo GIF here:
+  ![Demo](demo.gif)
+-->
 
-* Configuration
+## Run
 
-* Database creation
+```bash
+npm install
+npm run dev
+```
 
-* Database initialization
+---
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+*Built by [@stussysenik](https://github.com/stussysenik)*
